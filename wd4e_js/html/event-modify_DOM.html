@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/event-modify_DOM.css">
+    </head>
+    <h1>Modify the DOM</h1>
+		<button onclick="document.getElementById('stuff').innerHTML = 'Clicked First Button';">First</button>
+
+		<button onclick="document.getElementById('stuff').innerHTML = 'Clicked Another Button';">Third</button>
+	<p>This code shouldn't change.</p>
+	<p id="stuff">This will change.</p>
+	<p>This shouldn't change either.</p>
+</html>

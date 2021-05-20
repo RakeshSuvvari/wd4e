@@ -1,0 +1,14 @@
+label{
+    display:block;
+    margin: 1% 0;
+  }
+
+form{
+  margin: 0 10%;
+  padding: 0%;
+}
+
+legend{
+  margin: 0%;
+  padding: 0%;
+}

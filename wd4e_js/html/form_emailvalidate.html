@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../css/form_emailvalidate.css">
+    <script src="../js/form_emailvalidate.js"></script>
+</head>
+
+<body>
+    <form>
+ 
+        <label>Your Name:<input type="text" id="name" name="name" placeholder = "Your Name" required></label>
+       
+        <label>Preferred email address:<input type="email" id="email_addr" name="email1" placeholder = "me@me.com" required></label>
+     
+        <label>Repeat email address: <input type="email" id="email_repeat" name="email2" required onchange="return check();"></label>
+     
+       <input type = 'submit' value = "Save" onclick = "return check();">
+       
+       <input type = 'reset' value = "Reset" onclick = "return true;">
+     </form>  
+
+</body>

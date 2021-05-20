@@ -1,0 +1,38 @@
+<head>
+      <link rel="stylesheet" href="../css/form_input_types.css">
+</head>
+<form>
+    <fieldset>
+          <legend>Input Types</legend>
+            <label>Name: <input type='text' id = 'name' name = 'name'></label>
+
+            <label>Email: <input type='email' name = 'email' placeholder="rock@youmail.com"> </label>
+
+            <label>Password: <input type='password' name = 'pass'></label>
+            
+            Gender<br/>
+            <label><input type="radio" name="sex" value="male" checked >Male</label>
+
+            <label><input type="radio" name="sex" value="female">Female</label>
+
+            <label><input type="radio" name="sex" value="transgender">Others</label>
+
+            Contact<br/>
+            <label> <input type="checkbox" name="contact1" value="email">Contact me via email</label>
+
+            <label> <input type="checkbox" name="contact2" value="phone">Contact me via phone</label>
+      
+            <label>Mobile: <input type="tel" name="numberInput" min="10" max="10" placeholder="0123456789"></label>
+
+            <label>Range of Experience: <input type="range" name="rangeInput" min="1" max="10"></label>
+
+            <label>Color: <input type="color" name="colorInput" min="1" max="10"></label>
+
+            <label>Date of Birth: <input type="date" name="dateInput" min="1999-01-01" max="2020-12-31"></label>
+
+            <label>URL: <input type="url" name="urlInput" placeholder="starts with http:// or https://"></label>
+
+            <input type = 'submit' value = "Submit" onclick="alert('Hello! This is a test form')";>
+            <input type="reset">
+      </fieldset>
+</form> 

@@ -1,0 +1,146 @@
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+.navbar-nav .dropdown{
+    display:block;
+}
+.navbar-dark{
+    background-color:black;
+}
+
+nav ul>li{
+    padding: 0 12px;
+    position:static;
+}
+
+nav li li{
+    padding: 8px 3px;
+    font-size: 18px;
+    display: block;
+}
+
+nav li>a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li>:hover{
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover ul{
+    display: block;
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    background-color:black;
+}
+
+
+.dropdown-toggle-right::after{
+    display: inline-block;
+    color: white;
+    content: '';
+    border-top: .3em solid transparent;
+    border-right: .3em solid transparent;
+    border-bottom: .3em solid transparent;
+    border-left: .3em solid ;
+}
+
+.dropdown-toggle-down::after{
+    display: inline-block;
+    content: '';
+    /* float: right; */
+    vertical-align: middle;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: .3em solid transparent;
+    border-left: .3em solid transparent;
+}
+
+.dropdown-item{
+    background-color:rgba(43, 41, 41, 0.356);
+    margin-top: 0;
+    padding: .75rem;
+    width: 100%;
+    transition: .2s background-color;
+}
+
+.dropdown-menu li{
+    border-bottom: 2px solid black;
+}
+
+.dropdown-item:hover{
+    background-color:#3f4042ea;
+}
+
+nav .navbar-nav .nav-item .highlight.active{
+    color:yellow;
+}
+
+.dropdown-menu .dropdown-menu{
+    display: none;
+}
+.dropdown-menu li:hover ul{
+    display: block;
+    left:100%;
+    top: 1px;
+}
+
+.dropdown-menu li ul li{
+    border-bottom: 2px solid black;
+}
+
+.dropdown-menu .spl:hover ul{
+    display: block;
+    left:100%;
+    top: 65%;
+}
+
+.dropdown-menu .spl2:hover ul{
+    display: block;
+    left:100%;
+    top: 80%;
+}
+
+
+
+
+
+@media (max-width: 990px){
+header .navbar .dropdown-menu .dropdown-submenu, header .navbar .dropdown-menu .nav-item {
+    display: grid;
+}
+
+
+.dropdown-item.dropdown-toggle-right::after{
+    display: block;
+    content: '';
+    float: right;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: .3em solid transparent;
+    border-left: .3em solid transparent;
+}
+
+nav li:hover ul{
+    display: block;
+    position: absolute;
+    width: inherit;
+    text-align: left;
+    background-color:black;
+}
+
+.dropdown-menu li:hover ul{
+    display: none;
+}
+.dropdown-menu .spl:hover ul{
+    display: none;
+}
+
+.dropdown-menu .spl2:hover ul{
+    display: none;
+}
+
+}
